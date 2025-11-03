@@ -7,12 +7,25 @@
 h1 {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
+  text-align: center;
+  padding: 2rem;
+  color: white;
 }
 
 
 .container {
     display: flex;
     flex-flow: column;
+    margin-bottom: 5rem;
+
+}
+
+.containertower{
+  display: flex;
+}
+
+body{
+background-color: black;
+    margin-bottom: 10rem;
 }
