@@ -17,15 +17,23 @@ h1 {
 .container {
     display: flex;
     flex-flow: column;
-    margin-bottom: 5rem;
-
+    align-items: flex-end;
+    width: fit-content;
+    margin: 0;
+    padding: 2rem;
 }
 
 .containertower{
   display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    width: fit-content;
+    margin: 0;
+    padding: 2rem;
 }
 
+
 body{
-background-color: black;
+background-color: rgb(127, 111, 111);
     margin-bottom: 10rem;
 }
